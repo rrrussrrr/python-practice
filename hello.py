@@ -8,7 +8,13 @@ if name == "Bob":
 else:
     print("Who are you?")
     
-test = 0
-while test < 5:
-    print(test)
-    test+=1
+
+
+for i in range(10):
+    print(i)
+    
+for i in range(5, 10):
+    print(i)
+
+for i in range(0,10,2):
+    print(i)
