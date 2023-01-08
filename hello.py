@@ -1,6 +1,9 @@
 print("Hello World!")
 print("What's your name?")
-myName = input()
-print("nice to meet you, " + myName)
-print("The length of your name is: ")
-print(len(myName))
+# comments
+
+name = "Bobs"
+if name == "Bob":
+    print("Hi, Bob")
+else:
+    print("Who are you?")
