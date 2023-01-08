@@ -1,4 +1,4 @@
-import random
+import random, sys
 
 print("Pick a range for the randodm number:")
 range = int(input())
@@ -6,7 +6,9 @@ ranNum = random.randint(1, range);
 print('OK!  Now guess a number between 1 and ' + str(range))
 while True:
     guess = int(input())
-    if guess == ranNum:
+    if guess == "q":
+        sys.exit()
+    elif guess == ranNum:
         print ("nice!")
         break
     elif guess < ranNum:
